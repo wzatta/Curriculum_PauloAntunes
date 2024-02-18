@@ -1,0 +1,98 @@
+.zap {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.zap::before {
+  content: url(../../../../assets/img/whatsapp32.png);
+}
+
+.gmail {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gmail::before {
+  content: url(../../../../assets/img/gmail.png);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.dados__de__contato__redesociais__link {
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.circulomenor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.circulomenorTamanho1 {
+  width: 200px;
+  height: 200px;
+}
+
+.circulomenorCordefundo2 {
+  background-color: gray;
+  overflow: hidden;
+}
+
+.foto__02 {
+  width: 150px;
+  height: 150px;
+  padding: auto;
+}
+
+
+@media (max-height:500px) and (orientation:landscape){
+  .container__principal {
+    height: 130vh;
+  }
+
+  .container__principal h1, h2 {
+    font-size: 1rem;
+  }
+
+
+}
+
+
+
+@media (min-width:834px) {
+
+
+}
+
+@media (min-width:1200px) {
+
+  .circulomenorTamanho1 {
+      width: 300px;
+      height: 300px;
+  }
+
+  .foto__02 {
+      width: 300px;
+      height: 300px;
+  }
+
+}

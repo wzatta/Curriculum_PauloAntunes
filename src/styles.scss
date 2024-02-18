@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+:root {
+  --cor-de-fundo-01: #F3EEEA;
+  --cor-de-fundo-02: #EBE3D5;
+  --cor-de-fundo-03: #B0A695;
+  --cor-de-fundo-04: #776B5D;
+}
+
+body {
+  background-color: var(--cor-de-fundo-01);
+}
+h1 {
+  font-size: 1.5rem;
+  color: var(--cor-de-fundo-04);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1rem;
+  color: var(--cor-de-fundo-04);
+}

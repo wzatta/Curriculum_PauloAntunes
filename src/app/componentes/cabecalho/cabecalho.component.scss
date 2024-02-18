@@ -1,0 +1,65 @@
+.icone__home::before {
+  content: url(../../../assets/img/botao-home.png);
+}
+
+.icone__objetivo::before {
+  content: url(../../../assets/img/objetivo32.png);
+}
+
+.icone__sobremim::before {
+  content: url(../../../assets/img/autoapresentacao32.png);
+}
+
+.icone__formacao::before {
+  content: url(../../../assets/img/graduacao32.png);
+}
+
+.icone__carreira::before {
+  content: url(../../../assets/img/plano-de-carreira32.png);
+}
+
+
+.zap::before {
+  content: url(../../../assets/img/whatsapp32.png);
+}
+
+.gmail::before {
+  content: url(../../../assets/img/gmail32.png);
+}
+
+.menu__lista__itens {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (min-width: 768px){
+
+  .menu__lista__itens {
+   flex-direction: column;
+   justify-content: center;
+   gap: 1px;
+  }
+
+  .icone__home::before {
+    content:none;
+  }
+
+  .icone__objetivo::before {
+    content:none;
+  }
+
+  .icone__sobremim::before {
+    content:none;
+  }
+
+  .icone__formacao::before {
+    content:none;
+  }
+
+  .icone__carreira::before {
+    content:none;
+  }
+
+
+}
