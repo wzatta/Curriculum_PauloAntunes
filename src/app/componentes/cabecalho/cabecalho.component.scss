@@ -33,6 +33,12 @@
   align-items: center;
 }
 
+.nav-item:hover {
+  background-color: var(--cor-de-fundo-04);
+  .nav-link {color:var(--cor-de-fundo-01)!important;}
+  border-radius: 15px;
+}
+
 @media (min-width: 768px){
 
   .menu__lista__itens {
