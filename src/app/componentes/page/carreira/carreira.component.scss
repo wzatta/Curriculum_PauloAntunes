@@ -1,4 +1,32 @@
-.container__principal {
-  height: 100vh;
-background-color: yellow;
+.btn_01 {
+  background-color: var(--cor-de-fundo-02);
+  color: var(--cor-de-fundo-04);
+  align-items: center !important;
 }
+
+.btn_01:hover {
+  background-color: var(--cor-de-fundo-04);
+  color: var(--cor-de-fundo-02);
+  align-items: center !important;
+}
+
+.box__empresa {
+  width: 100%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .box__empresa {
+    width: 48%;
+  }
+ }
+
+ @media (min-width: 1200px) {
+  .box__empresa {
+    width: 24%;
+  }
+
+  }
